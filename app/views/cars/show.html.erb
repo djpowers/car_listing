@@ -1,0 +1,8 @@
+<h3>Car listing</h3>
+
+<strong>Color: </strong><%= @car.color %><br>
+<strong>Year: </strong><%= @car.year %><br>
+<strong>Mileage: </strong><%= @car.mileage %><br>
+<% if !@car.description.empty? %>
+  <strong>Description: </strong><%= @car.description %><br>
+<% end %>
